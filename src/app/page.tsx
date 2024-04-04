@@ -1,4 +1,5 @@
 import FeturedCourses from "@/components/FeturedCourses";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Instructors from "@/components/Instructors";
 import MusicSchollTestimonials from "@/components/TestimonialCards";
@@ -15,6 +16,7 @@ export default function Home() {
       <MusicSchollTestimonials />
       <UpCommingWebinars />
       <Instructors />
+      <Footer />
     </main>
   );
 }
